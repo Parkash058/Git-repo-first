@@ -9,7 +9,9 @@ def factorial(n):
 if __name__ == '__main__':
     nums = sys.argv[1:]
     print('Computing the factorial of ', nums)
+   print('Computing the factorial of ', nums)
+
     for num in nums:
-        num = int(num)
+                num = int(num)
         result = factorial(num)
         print('The factorial of {} is {}'.format(num, result))
